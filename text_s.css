@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Tahoma;
+}
+
+body {
+    background-color: rgb(227, 224, 226);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: Tahoma;
+    height: 700px;
+}
+
+.container {
+    position: relative;
+    margin-top: 50px;
+    width: 450px;
+    height: auto;
+    background: #f9f7f9;
+    border-radius: 10px;
+    transition: 0.8s ease;
+}
+.container:hover{
+    transform: scale(1.1);
+}
+
+.label {
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(149, 220, 255);
+    text-align: center;
+    justify-content: center;
+}
+
+.login_form {
+    padding: 20px 40px;
+}
+
+.login_form font{
+    font-size: 18px;
+    color: #53dbf6;
+    margin: 5px 0;
+}
+
+.login_form input {
+    height: 35px;
+    width: 340px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+.login_form .font2 {
+    margin-top: 30px;
+}
+
+.login_form button {
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: #03f8ef;
+    border-radius: 3px;
+    border: 1px solid #3949AB;
+    transition: .6s ease;
+}
+
+.login_form button:hover{
+    background: #151c6a;
+    transform: scale(1.1);
+}
+
+.login_form #email_error,
+.login_form #password_error {
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #fa04bd;
+    background: rgba(202, 55, 141, 0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+}
+
+.social-icons a{
+    color: #fff;
+    font-size: 1.1em;
+    padding-right: 20px;
+  }
+  .footer{
+    background-color: #000016;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    max-height: 40px;
+    margin-top: 20px;
+  }
+  
+  .footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+    font-family: Tahoma;
+  }
+  
+  .footer-title span{
+    color: #3a6cf4;
+    font-family: Tahoma;
+  }
